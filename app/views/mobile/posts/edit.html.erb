@@ -1,0 +1,8 @@
+<div data-role="header">
+  <h1>Editing Post</h1>
+</div>
+ 
+<div data-role="content">
+  <%= render 'form' %>
+</div>
+<%= link_to 'Delete', @post, :method => :delete, "data-icon" => "delete", "class" => "ui-btn-right" %>
